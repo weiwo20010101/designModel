@@ -9,10 +9,10 @@ import java.util.Calendar;
  * @Author weiwo
  * @Created on 2021/9/3
  */
-public class JDKCalendar {
+public class LOGback {
 
     Calendar calendar=Calendar.getInstance();
 
-    private static final Logger log= LoggerFactory.getLogger(JDKCalendar.class);
+    private static final Logger log= LoggerFactory.getLogger(LOGback.class);
 
 }
