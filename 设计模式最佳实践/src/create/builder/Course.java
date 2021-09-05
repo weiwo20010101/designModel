@@ -12,10 +12,18 @@ public class Course {
     private String note;
     private String homework;
 
+
     @Override
-    public String toString(){
-        return ""+note+"  "+name+"  "+video+" "+homework+" "+ppt;
+    public String toString() {
+        return "Course{" +
+                "name='" + name + '\'' +
+                ", ppt='" + ppt + '\'' +
+                ", video='" + video + '\'' +
+                ", note='" + note + '\'' +
+                ", homework='" + homework + '\'' +
+                '}';
     }
+
     public String getName(){
         return name;
     }
