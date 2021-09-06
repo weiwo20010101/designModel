@@ -46,6 +46,7 @@ public class Client2 {
         public void after(){
             System.out.println("多才多亿 开始交往");
         }
+
     }
     static class ZhaoLiu implements IPerson{
         @Override
